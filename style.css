@@ -669,6 +669,134 @@ ul {
 	margin-right: 0;
 }
 
+/*about us*/
+.align-items-center {
+	align-items: center!important;
+}
+.who-we-are-right {
+	padding: 0 0 0 30px;
+}
+.why-choose-us-item, .contact-info-item {
+	background-color: #fff;
+	padding: 30px 20px;
+	text-align: center;
+	box-shadow: 0 0 10px #0000001a;
+}
+.why-choose-us-item .icon {
+	position: relative;
+	background-color: #E52727;
+	border-radius: 100%;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+}
+.why-choose-us-item .icon img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 32px;
+}
+.why-choose-us-item h6 {
+	font-size: 20px;
+	color: #292b2c;
+	margin-bottom: 10px;
+}
+/*contact page*/
+.contact-icon {
+	border: 1px solid #E52727;
+	margin: 0 0 18px;
+	height: 80px;
+	width: 80px;
+	text-align: center;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 100%;
+	position: relative;
+	z-index: 1;
+}
+.contact-icon i {
+	font-size: 34px;
+	color: #E52727;
+	line-height: 78px;
+	transition: all .5s ease-in-out;
+}
+.contact-icon.large i {
+	font-size: 46px;
+}
+.contact-info-item h6 {
+	font-size: 20px;
+	color: #292b2c;
+	margin-bottom: 10px;
+}
+.contact-info-item:hover .contact-icon i {
+	color: #fff;
+}
+.contact-info-item .contact-icon:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: #E52727;
+	transition: all .5s ease-in-out;
+	-moz-transform: scale(0);
+	-webkit-transform: scale(0);
+	transform: scale(0);
+	border-radius: 100%;
+	z-index: -1;
+}
+.contact-info-item .contact-icon:before {
+	background-color: #E52727;
+}
+.contact-info-item:hover .contact-icon:before {
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	 transform: scale(1);
+}
+.contact-info-item p a {
+	color: #687188;
+}
+
+.wpcf7-form-control-wrap input, .wpcf7-form-control-wrap textarea {
+	width: 100%;
+	margin-bottom: 25px;
+	padding: 15px 15px;
+	font-size: 16px;
+	border: none;
+}
+.wpcf7-form.invalid .wpcf7-form-control-wrap input {
+	margin-bottom: 0px;
+}
+.wpcf7-form.invalid .wpcf7-form-control-wrap .wpcf7-not-valid-tip {
+	margin-bottom: 25px;
+}
+.wpcf7-form-control-wrap input:focus-visible, .wpcf7-form-control-wrap textarea:focus-visible {
+	outline: none;
+}
+.wpcf7-form-control-wrap textarea {
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+}
+.submit-btn  {
+	padding: 15px 30px;
+	position: relative;
+	color: #fff;
+	display: inline-block;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 16px;
+	background-color: #042352;
+	border: none;
+}
+.wpcf7-spinner {
+	top: 50%;
+	transform: translateY(-66%);
+}
+
+
+
 @media only screen and (max-width: 1199px) {
 }
 
